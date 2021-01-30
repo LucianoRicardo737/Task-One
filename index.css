@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #faf1e8;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    text-align: center;
+    margin-top: 100px;
+}
+.title{
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+.output{
+    grid-column: 1/-1;
+    grid-row: 2;
+}
+.go{
+    background: #fd9b89;
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px lightgray;
+    grid-column: 2;
+    grid-row: 3;
+    cursor:pointer;
+}
